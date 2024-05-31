@@ -9,7 +9,6 @@ This is a simple .NET WebAPI application with GraphQL integration that supports 
 - [Running the Application](#running-the-application)
 - [GraphQL Endpoints](#graphql-endpoints)
 - [Testing the API](#testing-the-api)
-- [Technologies Used](#technologies-used)
 
 ## Prerequisites
 - [.NET SDK](https://dotnet.microsoft.com/download) (version 6.0 or later)
