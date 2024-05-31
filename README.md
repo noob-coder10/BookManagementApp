@@ -38,10 +38,11 @@ This is a simple .NET WebAPI application with GraphQL integration that supports 
      ```
 
 2. **Apply Migrations**
-   - Run the following command in NuGet Package Manager Console to apply the database migrations:
+   - Run the following command to apply the database migrations:
      ```bash
-     add-migration "Initial Migration"
-     update-database
+     cd BookManagementApp
+     dotnet tool install --global dotnet-ef
+     dotnet ef database update
      ```
 
 ## Running the Application
